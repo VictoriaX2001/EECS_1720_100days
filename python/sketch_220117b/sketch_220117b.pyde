@@ -3,7 +3,7 @@ def setup():
 
 def draw():
     if  mousePressed:
-        fill(0)
+        fill(3)
     else:
-        fill(255)
+        fill(400)
     ellipse(mouseX, mouseY,50, 80)
