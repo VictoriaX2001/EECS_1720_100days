@@ -1,9 +1,5 @@
-def setup():
-    size(480, 480)
-
-def draw():
-    if  mousePressed:
-        fill(3)
-    else:
-        fill(999)
-    ellipse(mouseX, mouseY,50, 80)
+for i in range(1,5):
+ for j in range(1,5):
+  for k in range(1,5):
+   if (i != j) and (i != k) and (j != k):
+    print i,j,k, 80;
